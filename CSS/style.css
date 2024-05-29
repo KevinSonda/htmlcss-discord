@@ -38,15 +38,14 @@ header{
 }
 .col-40{
     width: 40%;
-    background-color: rgb(251, 125, 125);    
-    border: 1px dashed rgb(255, 255, 255);
     height: 300px;
     padding-bottom: 20px;
+    font-size: 30px;
+    color: rgb(126, 148, 255);
 }
 .col-15{
     width: 15%;
-    background-color: rgb(6, 248, 204);    
-    border: 1px dashed rgb(255, 255, 255);
+    
     height: 300px;
     padding-bottom: 20px;
 }
@@ -57,23 +56,33 @@ header{
 }
 .col-70{
     width: 70%;
-    background-color: cornflowerblue;
-    border: 1px dashed black;
-    height: 300px;
+    height: 520px;
 }
 .col-30{
     width: 30%;
-    background-color: pink;
-    border: 1px dashed black;
-    height: 300px;
+    height: 520px;
 }
 .col-100{
     width: 100%;
-    background-color: rgb(24, 134, 24);
-    border: 1px dashed black;
-    height: 600px;
+    height: 800px;
+    text-align: center;
 }
 /*fondi*/
+.bg-img-item{
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-img-item-2{
+    background-image: url(../img/item2.svg);
+    background-size: cover;
+    background-position: center;
+}
+.bg-img-item-3{
+    background-image: url(../img/item3.svg);
+    background-size: cover;
+    background-position: center;
+}
 .sfondo-blu{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -83,7 +92,6 @@ header{
     background-color: rgb(164, 164, 164);
 }
 .bg-ciano{
-    background-color: cyan;
     margin: 0px 19px 0px 19px;
 }
 .link{
@@ -106,8 +114,7 @@ hr{
     color: white;
 }
 .bottoni-footer{
-    background-color: plum;
-    border: 1px dashed black;
+    
     padding: 10px;
     margin-right: -20px;
     margin-left: -20px;;
@@ -138,6 +145,18 @@ hr{
 h1{
     color: white;
 }
+h2{
+    padding: 20px;
+    font-size: 50px;
+}
+h4{
+    color: rgb(126, 148, 255);
+}
+
+.p-bottom{
+    color: white;
+    padding-top: 10px;
+}
 .p-white{
     color: white;
     padding-top: 15px;
@@ -159,4 +178,31 @@ h1{
 }
 .p-spazio{
     padding-top: 45px;
+}
+.p-scarica-mac-blu{
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(126, 148, 255);
+}
+.stelle{
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.lingua{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    font-size: 15px;
+}
+.lingua img{
+    width: 30px;
+    height: 30px;
+}
+.lingua p{
+    margin: 0px 5px;
 }
